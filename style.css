@@ -29,13 +29,32 @@ h1{
 .top_banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    display: flex;
-    margin-bottom: 150px;
+    
 }
 .dream{
-    display: flex;
+    
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    
+}
+.flexible-container{
+    display: flex;
     margin-bottom: 150px;
+}
+.experiences_item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 4%;
+    border-left: 10px solid;
+}
+.experiences_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    
+}
+footer p{
+    text-align: center;
 }
